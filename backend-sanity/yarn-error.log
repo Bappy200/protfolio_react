@@ -1,0 +1,65 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\nvm\v16.14.0\node_modules\@sanity\cli\vendor\yarn install --json --non-interactive --ignore-engines --network-timeout 60000 --registry https://registry.npmjs.org
+
+PATH: 
+  C:\Users\USER\AppData\Roaming\nvm\v16.14.0\node_modules\vendor;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\USER\AppData\Local\Programs\Python\Python38-32;C:\Users\USER\AppData\Local\Programs\Python\Python38-32\Scripts;C:\Users\USER\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\USER\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\USER\AppData\Local\Programs\Python\Python38-32\;C:\Users\USER\AppData\Local\Microsoft\WindowsApps;C:\Users\USER\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\USER\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Program Files\JetBrains\PyCharm 2021.2.3\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2021.2.3\bin;;C:\Users\USER\AppData\Roaming\nvm;C:\Program Files\nodejs
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npmjs.org/date-fns/-/date-fns-2.28.0.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\USER\AppData\Roaming\nvm\v16.14.0\node_modules\@sanity\cli\vendor\yarn:135945:19)
+      at Object.onceWrapper (node:events:639:28)
+      at ClientRequest.emit (node:events:520:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:758:9)
+      at Object.onceWrapper (node:events:639:28)
+      at TLSSocket.emit (node:events:532:35)
+      at TLSSocket.Socket._onTimeout (node:net:501:8)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7)
+
+npm manifest: 
+  {
+    "name": "protfolio",
+    "private": true,
+    "version": "1.0.0",
+    "description": "",
+    "main": "package.json",
+    "author": "Md Sajjadul Islam <sbappyi200@gmail.com>",
+    "license": "UNLICENSED",
+    "scripts": {
+      "start": "sanity start",
+      "build": "sanity build"
+    },
+    "keywords": [
+      "sanity"
+    ],
+    "dependencies": {
+      "@sanity/base": "^2.30.1",
+      "@sanity/core": "^2.30.2",
+      "@sanity/default-layout": "^2.30.1",
+      "@sanity/default-login": "^2.30.1",
+      "@sanity/desk-tool": "^2.30.1",
+      "@sanity/eslint-config-studio": "^2.0.0",
+      "@sanity/vision": "^2.30.1",
+      "eslint": "^8.6.0",
+      "prop-types": "^15.7",
+      "react": "^17.0",
+      "react-dom": "^17.0",
+      "styled-components": "^5.2.0"
+    },
+    "devDependencies": {}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
